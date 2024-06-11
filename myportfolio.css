@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+.heading1 {
+  padding-right: 100px;
+  align-items: center;
+  text-align: center;
+}
+
 .header {
   position: fixed;
   background: #000;
@@ -21,7 +27,7 @@ body {
   left: 0;
   width: 100%;
   padding-top: 10px;
-  padding-right: 40px;
+  padding-right: 5px;
   padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
@@ -35,7 +41,7 @@ body {
 
 .logo {
   position: relative;
-  padding-left: 20px;
+  padding-left: 3px;
   font-size: 25px;
   color: #fff;
   text-decoration: none;
@@ -775,10 +781,15 @@ form textarea {
 }
 
 .last-text p {
+  border: 1px solid red;
+  margin-left: 30px;
+  max-width: 1000px;
   width: 100%;
+  align-items: center;
   text-align: center;
   padding: 25px 0;
   background: rgb(7, 85, 91);
+  font-size: 20px;
   font-weight: 300;
   margin-top: 70px;
 }
@@ -848,59 +859,180 @@ form textarea {
 }
 
 @media screen and (max-width: 750px) {
-  .menu-bar {
-    display: flex;
+  .portfolio-content {
+    align-items: center;
+    text-align: center;
   }
 
-  .header .navbar a {
-    display: none;
-    color: rgb(12, 12, 191);
+  .portfolio-content img {
+    width: 350px;
+  }
+}
+.menu-bar {
+  display: flex;
+}
+
+.header .navbar a {
+  display: none;
+  color: rgb(12, 12, 191);
+}
+.about-text {
+  max-width: 400px;
+  width: 100%;
+}
+
+.side-bar {
+  font-size: 30px;
+}
+
+.home-content {
+  border: 1px solid red;
+  /* max-width: 400px; */
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.container1 {
+  padding-bottom: 60px;
+}
+.about {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about .about-img {
+  margin-top: 80px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.about .about-text h2 {
+  padding-top: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-text {
+  padding-top: 80px;
+}
+
+.last-text p {
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .portfolio-content {
+    align-items: center;
+    text-align: center;
   }
 
-  .about .about-text h4 {
-    font-size: 20px;
+  .portfolio-content img {
+    width: 350px;
   }
+}
+.menu-bar {
+  display: flex;
+}
 
-  .side-bar {
-    font-size: 30px;
-  }
+.header .navbar a {
+  display: none;
+  color: rgb(12, 12, 191);
+}
 
-  .home-content {
+.about .about-text h4 {
+  font-size: 20px;
+}
+
+.side-bar {
+  font-size: 30px;
+}
+
+.home-content {
+  border: 1px solid red;
+  /* max-width: 400px; */
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.container1 {
+  padding-bottom: 60px;
+}
+.about {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about .about-img {
+  margin-top: 80px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.about .about-text h2 {
+  padding-top: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-text {
+  padding-top: 80px;
+}
+
+.last-text p {
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .home-content,
+  .about-text {
+    margin-left: 10px;
+    padding: 30px;
+    /* margin-left: 15px; */
+    /* border: 1px solid red; */
+    max-width: 450px;
     width: 100%;
     align-items: center;
     text-align: center;
   }
 
-  .container1 {
-    padding-bottom: 60px;
+  .about-text {
+    max-width: 400px;
+    width: 100%;
   }
-  .about {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+}
+
+@media screen and (max-width: 350px) {
+  .home-content,
+  .about-text {
+    margin-left: 10px;
+    padding: 30px;
+    /* margin-left: 15px; */
+    /* border: 1px solid red; */
+    max-width: 450px;
+    width: 100%;
     align-items: center;
     text-align: center;
   }
 
-  .about .about-img {
-    margin-top: 80px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-  }
-  .about .about-text h2 {
-    padding-top: 50px;
+  .about-text {
+    max-width: 400px;
+    width: 100%;
   }
 
-  .contact {
-    display: flex;
-  }
-
-  .contact-text {
-    padding-top: 80px;
-  }
-}
-
-.last-text p {
-  color: black;
+  /* .container1 .heading1 {
+    font-size: 40px;
+    margin-right: 90px;
+  } */
 }
